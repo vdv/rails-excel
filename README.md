@@ -1,6 +1,6 @@
 # Rails Excel
 
-It adds support of .rxls templates for your rails views
+It adds support of .rxls templates for your Rails views
 
 [DEPRECATED]
 
@@ -38,11 +38,11 @@ RailsExcel.configure do |config|
 end
 ```
 
-If you wan tot implement your own strategy, here are the requirements :
+If you want to implement your own strategy, here are the requirements :
 
-* Must respond to compile
-* First argument of compile takes a StringIo instance where to write the response
-* compile takes a block that yields a workbook instance
+* Must respond to `compile`
+* First argument of `compile` takes a StringIO instance where to write the response
+* `compile` takes a block that yields a workbook instance
 
 
 Example extracted from code source:
